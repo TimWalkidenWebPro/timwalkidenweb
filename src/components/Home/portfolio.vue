@@ -1,5 +1,5 @@
 <template>
-    <div class="sm:px-40 px-4 py-16 relative text-white">
+    <div class="sm:px-40 px-4  relative text-white">
         <h2 class="text-center text-3xl font-bold">My Portfolio </h2>
         <p class="text-center text-lg mt-3">A display of design, development, and creative experiments.</p>
 
