@@ -1,5 +1,5 @@
 <template>
-    <div class="sm:px-40 px-4 my-16 pb-16 relative ">
+    <div class="sm:px-40 px-4 my-16 relative ">
         <h2 class="text-center text-3xl font-bold mb-16 text-white">Work Experience</h2>
         <ol class="relative border-s border-dashed border-white sm:max-w-3xl sm:ml-[40%] m-auto sm:mr-0 w-3/4 sm:w-full ">
             <li class="mb-10 sm:mx-28 flex flex-col gap-4 ms-8 " v-for="(experience, index) in experiences">
