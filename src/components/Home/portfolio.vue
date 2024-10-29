@@ -7,7 +7,7 @@
             <div v-motion :initial="{ opacity: 0 }" :visibleOnce="{ opacity: 100}" :delay="500" :duration="20000"
              v-for="(project, index) in projects" :style="getBackgroundStyle(project.img)"
                 :class="getClass(index)"
-                class="relative flex items-center justify-center xl:h-48 h-60 rounded-lg bg-cover bg-center">
+                class="relative flex items-center justify-center xl:h-48 h-60 rounded-lg bg-cover bg-center drop-shadow-2xl">
                 <div class="absolute inset-0 bg-black  rounded-lg opacity-70   transition ease-in-out  
                     group/item hover:duration-1000 hover:opacity-100">
                     <div
@@ -19,7 +19,7 @@
                         <h3 class="text-center text-lg font-bold pb-2">{{ project.title }}</h3>
                         <p class="text-center ">{{ project.description }}</p>
                         <a :href="project.linkHref"
-                            class="flex  w-32 justify-center mt-4 px-4 py-2 text-white bg-primary rounded mx-auto">
+                            class="flex  w-32 justify-center mt-4 px-4 py-2 text-white bg-primary rounded-2xl mx-auto">
                             {{ project.linkText }}
                         </a>
                     </div>
@@ -37,7 +37,7 @@ export default {
         return {
             projects: [
                 { title: 'Wrexham Digital', img: require('@/assets/wrexham-digital.png'), linkHref: 'https://wrexham.digital', linkText: 'Visit', description: 'I contributed to the design and development of a website for Wrexham digital, a digital agency located in the Wrexham area.' },
-                { title: 'timwalkiden.dev', img: require('@/assets/wrexham-digital.png'), linkHref: 'https://github.com/TimWalkidenWebPro/timwalkidenweb', linkText: 'Repo', description: 'I have built a personal website to showcase my skills and work history, currently developed using Vue.' },
+                { title: 'timwalkiden.dev', img: require('@/assets/webPortfolio.jpg'), linkHref: 'https://github.com/TimWalkidenWebPro/timwalkidenweb', linkText: 'Repo', description: 'I have built a personal website to showcase my skills and work history, currently developed using Vue.' },
             ],
             hoverItem: null,
         };
