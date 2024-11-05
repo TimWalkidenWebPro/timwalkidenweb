@@ -7,7 +7,7 @@
                 <p class="text-lg pt-2" v-for="item in description"> {{ item }}</p>
             </div>
             <div class="rounded">
-                <img class=" mx-auto sm:ml-auto mt-2 sm:mt-0 rounded-lg drop-shadow-2xl" width="300" :src="require(`@/assets/${img}`)" :alt="title"  />
+                <img class=" mx-auto sm:ml-auto mt-2 sm:mt-0 rounded-lg drop-shadow-2xl" width="300" height="300" :src="require(`@/assets/${img}`)" :alt="title"  />
             </div>
         </div>
     </div>

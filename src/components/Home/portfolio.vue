@@ -36,7 +36,7 @@ export default {
     data() {
         return {
             projects: [
-                { title: 'Wrexham Digital', img: require('@/assets/wrexham-digital.png'), linkHref: 'https://wrexham.digital', linkText: 'Visit', description: 'I contributed to the design and development of a website for Wrexham digital, a digital agency located in the Wrexham area.' },
+                { title: 'Wrexham Digital', img: require('@/assets/wrexham-digital.webp'), linkHref: 'https://wrexham.digital', linkText: 'Visit', description: 'I contributed to the design and development of a website for Wrexham digital, a digital agency located in the Wrexham area.' },
                 { title: 'timwalkiden.dev', img: require('@/assets/webPortfolio.jpg'), linkHref: 'https://github.com/TimWalkidenWebPro/timwalkidenweb', linkText: 'Repo', description: 'I have built a personal website to showcase my skills and work history, currently developed using Vue.' },
             ],
             hoverItem: null,

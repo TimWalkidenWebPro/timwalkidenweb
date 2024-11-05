@@ -7,7 +7,7 @@
             <div class="grid grid-cols-4 gap-4">
                 <div class="p-4" v-for="skill in firstRow" v-motion :initial="{ opacity: 0, y: 100 }"
                     :visibleOnce="{ opacity: 100, y: 0 }" :delay="500" :duration="1500">
-                    <img class=" mx-auto" width="75" :src="require(`@/assets/icons/${skill}`)"  :alt="skill" />
+                    <img class=" mx-auto" width="75" height="75" :src="require(`@/assets/icons/${skill}`)"  :alt="skill" />
                 </div>
             </div>
 
@@ -15,7 +15,7 @@
             <div class="grid grid-cols-3 gap-4">
                 <div class="p-4" v-for="skill in secondRow" v-motion :initial="{ opacity: 0, y: 100 }"
                     :visibleOnce="{ opacity: 100, y: 0 }" :delay="800" :duration="1500">
-                    <img class=" mx-auto" width="75" :src="require(`@/assets/icons/${skill}`)" :alt="skill" />
+                    <img class=" mx-auto" width="75" height="75" :src="require(`@/assets/icons/${skill}`)" :alt="skill" />
                 </div>
             </div>
 
@@ -23,7 +23,7 @@
             <div class="grid grid-cols-2 gap-4">
                 <div class="p-4" v-for="skill in lastRow" v-motion :initial="{ opacity: 0, y: 100 }"
                     :visibleOnce="{ opacity: 100, y: 0 }" :delay="800" :duration="1500">
-                    <img class=" mx-auto" width="75" :src="require(`@/assets/icons/${skill}`)" :alt="skill"  />
+                    <img class=" mx-auto" width="75" height="75" :src="require(`@/assets/icons/${skill}`)" :alt="skill"  />
                 </div>
             </div>
         </div>

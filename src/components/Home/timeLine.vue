@@ -9,9 +9,9 @@
                 </span>
                 <button class="absolute w-max text-white px-4 py-2 sm:-start-7 -start-5 bg-primary rounded border-white border"
                     v-on:click="toggle(index)" aria-label="show content">
-                    <img v-if="!experience.open" class=" mx-auto w-2.5 sm:w-6" width="25" alt="show content"
+                    <img v-if="!experience.open" class=" mx-auto w-2.5 sm:w-6" width="25" height="24" alt="show content"
                         :src="require(`@/assets/icons/plus.svg`)" />
-                    <img v-if="experience.open" class=" mx-auto w-2.5 sm:w-6" width="25" alt="hide content "
+                    <img v-if="experience.open" class=" mx-auto w-2.5 sm:w-6"  width="25" height="24" alt="hide content "
                         :src="require(`@/assets/icons/subtract.svg`)" />
                 </button>
                 <div class="border rounded border-white text-white  bg-primary p-4">
