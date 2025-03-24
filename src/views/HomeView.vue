@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Hero title="Hi, I'm Tim:" subHeading="A Frontend web developer and UI/UX Designer"
+    <Hero title="Hi, I'm Tim:" subHeading="A Frontend Web Developer and UI/UX Designer"
       missionStatement="Enhancing the web's beauty, one pixel at a time" img="profileImage.webp"/>
 
     <Portfolio />
