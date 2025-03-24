@@ -13,13 +13,13 @@ const routes = [
     name: 'portfolio-profile',
     component: PortfolioProfile
   },
-  {
+  /*{
     path: "/:catchAll(.*)",
     name: "notFound",
     component: () => import(
       "../views/NotFound"
     )
-  }
+  }*/
 ]
 
 const router = createRouter({
