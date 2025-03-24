@@ -1,0 +1,123 @@
+[
+    {
+      "slug": "wrexham-digital",
+      "title": "Wrexham Digital",
+      "projectOverview": "I was hired by Wrexham Digital to design and develop their website, ensuring it effectively showcases their services, provides clear contact options, and communicates their customer promises. The goal was to create a professional, user-friendly platform that reflects their brand while making it easy for potential clients to understand what they offer and how to get in touch. Through a clean design and intuitive navigation, the website enhances their online presence and strengthens their connection with customers.",
+      "summaryPoints": [
+        {
+          "heading": "Technologies",
+          "value": "Vue, Figma, Tailwind"
+        },
+        {
+          "heading": "Expertise",
+          "value": "Design and Development"
+        },
+        {
+          "heading": "Delivered",
+          "value": "Figma Design and Vue.js code"
+        }
+      ],
+      "website": "https://wrexham.digital",
+      "keyFeatures" : false,
+      "mainImage": "/wrexhamHome.webp",
+      "projectOverviewImage": "/servicePageWrexham.webp"
+    },
+
+  {
+    "slug": "animal-charity-template",
+    "title": "Animal Charity Template",
+    "projectOverview": "I was asked by Wrexham Digital to design a website for a potential animal rescue charity aimed at raising awareness for its cause. The objective was to present key facts about the challenges faced by rescued animals, emphasize the necessary changes to improve their well-being, and share real-life stories of animals saved and rehabilitated. The website also needed to highlight how the charity supports animals in need. With a focus on compassion and clarity, the design sought to create an engaging, informative platform that inspires action and fosters a sense of community.",
+    "summaryPoints": [
+      {
+        "heading": "Technologies",
+        "value": "Vue, Figma, Tailwind"
+      },
+      {
+        "heading": "Expertise",
+        "value": "Design"
+      },
+      {
+        "heading": "Delivered",
+        "value": "Figma Design"
+      }
+    ],
+    "website": false,
+    "keyFeatures" : {
+      "intro": "This project includes a range of essential features designed to enhance functionality and user experience:",
+      "features": [
+        "Donation System: Design a secure and user-friendly donation system to allow users to contribute easily.",
+        "Blog: Create a structured blogging platform with categories for organized content sharing.",
+        "Contact Form: Implement a simple and effective contact form for users to reach out with inquiries or feedback."
+      ]
+    },
+    "mainImage": "/animalHome.webp",
+    "projectOverviewImage": "/animalContact.webp"
+  },
+
+  {
+    "slug": "cat-adoption-template",
+    "title": "Cat Adoption Template",
+    "projectOverview": "In the digital age, animal adoption centers need more than just a simple website—they require a dynamic, engaging platform that connects potential adopters with animals in need. Animal Haven is a fully customizable website template designed to help shelters and rescue organizations showcase adoptable pets, share educational content, collect donations, and allow users to create personalized web pages with intuitive components.\n \n With an easy-to-use interface, the template empowers non-technical users to build a professional and functional website that enhances adoption rates and community engagement. Featuring a visually appealing design, integrated donation options, and a blog for storytelling, Animal Haven ensures that every furry friend finds their forever home while supporting the organization's mission.\n",
+    "summaryPoints": [
+      {
+        "heading": "Technologies",
+        "value": "React, Next.js, Tailwind, Typescript, Figma"
+      },
+      {
+        "heading": "Expertise",
+        "value": "Design and Development"
+      },
+      {
+        "heading": "Delivered",
+        "value": "Figma, Design and Next.js website"
+      }
+    ],
+    "website": "https://pet-adoption-template.timwalkiden.dev/",
+    "keyFeatures" : {
+      "intro": "This project includes a range of essential features designed to enhance functionality and user experience:",
+      "features": [
+        "CMS Integration (Storyblok) – Manage dynamic content efficiently using Storyblok’s headless CMS.",
+        "Payment Processing (PayPal & Stripe) – Secure and seamless payment handling with PayPal and Stripe integration.",
+        "Blog System with Categories – Organize posts with a structured category system for better content management.",
+        "Contact Form (Next.js API) – Handle inquiries through a custom API built with Next.js for smooth communication."
+      ]
+    },
+    "mainImage": "/adoptionImage.webp",
+    "projectOverviewImage": "/AdoptionSearch.webp"
+  },
+
+  {
+    "slug": "bakery-template",
+    "title": "Bakery Template",
+    "projectOverview": "This project involves designing an eCommerce website for a bakery, showcasing a variety of baked goods available for sale. Each bakery item will have its own dedicated profile page, providing details such as ingredients, pricing, and images. The design focuses on creating an intuitive and visually appealing shopping experience.\n\n           In the future, this design will be developed into a fully functional website, allowing me to expand my skills by integrating Shopify for product management, payments, and order processing. This project serves as both a creative and technical learning experience, helping me gain hands-on expertise in eCommerce design and Shopify integration.",
+    "summaryPoints": [
+      {
+        "heading": "Technologies",
+        "value": "Figma"
+      },
+      {
+        "heading": "Expertise",
+        "value": "Design"
+      },
+      {
+        "heading": "Delivered",
+        "value": "Figma Design"
+      },
+      {
+        "heading": "Coming soon",
+        "value": "Next.js, Shopify"
+      }
+    ],
+    "website": "",
+    "keyFeatures" : {
+      "intro": "This project includes a range of essential features designed to enhance functionality and user experience:\n",
+      "features": [
+        "eCommerce Functionality: Display bakery items for sale with a seamless shopping experience and product checkout.",
+        "Search & Filtering: Allow users to easily find bakery items through search and category filters.",
+        "Bakery Item Profiles: Each product has a dedicated page with details, pricing, and high-quality images."
+      ]
+    },
+    "mainImage": "/bakeryHome.webp",
+    "projectOverviewImage": "/bakeryProfile.webp"
+  }
+]

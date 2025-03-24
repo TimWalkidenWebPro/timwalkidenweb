@@ -1,8 +1,13 @@
 <template>
-    <div class=" min-h-96 flex flex-col justify-center heroBg text-white">
-        <h1 class="sm:mx-40 mx-4 mx-0 text-3xl font-bold uppercase">{{ title }}</h1>
-        <h2 class="sm:mx-40 mx-4 mx-0 text-2xl font-bold my-2 uppercase">{{ subHeading }}</h2>
-        <p class="sm:mx-40 mx-4 mx-0 text-lg">{{ missionStatement }}</p>
+    <div class="md:py-32 py-16 md:text-left text-center max-w-6xl xl:mx-auto mx-4 flex md:flex-row flex-col justify-between items-center gap-10 text-white">
+        <div class="flex flex-col md:w-1/2">
+          <h1 class=" text-2xl font-bold ">{{ title }}</h1>
+          <h2 class=" md:text-[45px] text-[26px] font-bold my-2 ">{{ subHeading }}</h2>
+        </div>
+
+      <div class="rounded hidden md:block">
+        <img class=" mx-auto sm:ml-auto mt-2 sm:mt-0 rounded-lg drop-shadow-2xl" width="350" height="350" :src="require(`@/assets/${img}`)" :alt="title"  />
+      </div>
     </div>
 
 </template>
@@ -12,15 +17,12 @@ export default {
     props: [
         'title',
         'subHeading',
-        'missionStatement'
+        'missionStatement',
+        'img',
     ]
 }
 </script>
 
 <style>
-    .heroBg {
-        background-image: url('@/assets/heroImg.svg');
-        background-position: top right;
-        background-repeat: no-repeat;
-    }
+
 </style>
